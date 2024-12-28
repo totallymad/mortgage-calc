@@ -21,10 +21,9 @@ export const calculateMortgageDetails = (amount, term, rate) => {
   };
 };
 
-
 export function formatCurrency(amount) {
-    return new Intl.NumberFormat('ru-RU', {
-      style: 'currency',
-      currency: 'RUB',
-    }).format(amount);
-  }
+  return new Intl.NumberFormat("en-GB", {
+    style: "currency",
+    currency: "GBP",
+  }).format(amount);
+}
