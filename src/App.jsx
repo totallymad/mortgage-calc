@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
 import Form from "./components/Form";
 import Result from "./components/Result";
-import formReducer from "./store/FormSlice.js";
+import formReducer from "./store/formSlice.js";
 import { Provider } from "react-redux";
 
 const store = configureStore({
