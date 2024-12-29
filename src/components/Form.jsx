@@ -4,7 +4,7 @@ import {
   validateForm,
   calculateMortgage,
   clearForm,
-} from "../store/FormSlice";
+} from "../store/formSlice";
 
 export default function Form() {
   const dispatch = useDispatch();
